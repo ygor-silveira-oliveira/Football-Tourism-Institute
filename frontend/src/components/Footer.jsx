@@ -18,15 +18,14 @@ const Footer = () => {
             <h3 className="text-2xl font-semibold text-white mb-6">E-mail</h3>
             <div className="space-y-2">
               <a
-                
                 aria-label="Gmail"
                 className="text-white text-2xl hover:text-red-400 transition-colors"
               >
-                
                 <i className="fa-solid fa-envelope"></i>
-                <p className="text-gray-200 text-lg">footballtourisminstitute@gmail.com</p>
+                <p className="text-gray-200 text-lg">
+                  footballtourisminstitute@gmail.com
+                </p>
               </a>
-              
             </div>
           </div>
 
@@ -53,11 +52,19 @@ const Footer = () => {
               </a>
             </div>
             <br />
-            <p className="text-gray-500 ">Website created by <a 
+            <p className="text-gray-500 ">
+              Website created by{" "}
+              <a
                 href="https://www.linkedin.com/in/ygor-silveira-de-oliveira-a6954b225/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn"><strong>Ygor Silveira.</strong></a></p>
+                aria-label="LinkedIn"
+              >
+                <strong>Ygor Silveira</strong>{" "}
+                <i className="fa-brands fa-linkedin ml-1 text-gray-500 text-lg"></i>
+              </a>
+              .
+            </p>
           </div>
 
           <div>
@@ -65,8 +72,12 @@ const Footer = () => {
               Phone Numbers
             </h3>
             <div className="space-y-2">
-              <p className="text-gray-200 text-lg">Phone 1: ‪+1 (540) 575.3126‬</p>
-              <p className="text-gray-200 text-lg">Phone 2: ‪+1 (864) 653.0608</p>
+              <p className="text-gray-200 text-lg">
+                Phone 1: ‪+1 (540) 575.3126‬
+              </p>
+              <p className="text-gray-200 text-lg">
+                Phone 2: ‪+1 (864) 653.0608
+              </p>
             </div>
           </div>
         </div>
